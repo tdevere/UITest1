@@ -34,27 +34,24 @@
           }
         }
       },
-      "NUnit/3.12.0": {
+      "NUnit/3.13.3": {
         "type": "package",
         "compile": {
           "lib/net45/nunit.framework.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net45/nunit.framework.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
           "build/NUnit.props": {}
         }
       },
-      "NUnit3TestAdapter/3.13.0": {
-        "type": "package",
-        "build": {
-          "build/net35/NUnit3TestAdapter.props": {}
-        }
+      "NUnit3TestAdapter/4.4.2": {
+        "type": "package"
       },
       "SharpZipLib/1.3.3": {
         "type": "package",
@@ -239,27 +236,24 @@
           }
         }
       },
-      "NUnit/3.12.0": {
+      "NUnit/3.13.3": {
         "type": "package",
         "compile": {
           "lib/net45/nunit.framework.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net45/nunit.framework.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
           "build/NUnit.props": {}
         }
       },
-      "NUnit3TestAdapter/3.13.0": {
-        "type": "package",
-        "build": {
-          "build/net35/NUnit3TestAdapter.props": {}
-        }
+      "NUnit3TestAdapter/4.4.2": {
+        "type": "package"
       },
       "SharpZipLib/1.3.3": {
         "type": "package",
@@ -400,27 +394,24 @@
           }
         }
       },
-      "NUnit/3.12.0": {
+      "NUnit/3.13.3": {
         "type": "package",
         "compile": {
           "lib/net45/nunit.framework.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net45/nunit.framework.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
           "build/NUnit.props": {}
         }
       },
-      "NUnit3TestAdapter/3.13.0": {
-        "type": "package",
-        "build": {
-          "build/net35/NUnit3TestAdapter.props": {}
-        }
+      "NUnit3TestAdapter/4.4.2": {
+        "type": "package"
       },
       "SharpZipLib/1.3.3": {
         "type": "package",
@@ -561,27 +552,24 @@
           }
         }
       },
-      "NUnit/3.12.0": {
+      "NUnit/3.13.3": {
         "type": "package",
         "compile": {
           "lib/net45/nunit.framework.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "runtime": {
           "lib/net45/nunit.framework.dll": {
-            "related": ".pdb;.xml"
+            "related": ".xml"
           }
         },
         "build": {
           "build/NUnit.props": {}
         }
       },
-      "NUnit3TestAdapter/3.13.0": {
-        "type": "package",
-        "build": {
-          "build/net35/NUnit3TestAdapter.props": {}
-        }
+      "NUnit3TestAdapter/4.4.2": {
+        "type": "package"
       },
       "SharpZipLib/1.3.3": {
         "type": "package",
@@ -740,10 +728,10 @@
         "packageIcon.png"
       ]
     },
-    "NUnit/3.12.0": {
-      "sha512": "3oJTrcUcT9wmweBUwgUf0f1XIYy6RZq2ziV+RM95HMKAJGsHPN2i3MKK1dAPvDPMRLz799Llj4eyu/STB9Q7OA==",
+    "NUnit/3.13.3": {
+      "sha512": "KNPDpls6EfHwC3+nnA67fh5wpxeLb3VLFAfLxrug6JMYDLHH6InaQIWR7Sc3y75d/9IKzMksH/gi08W7XWbmnQ==",
       "type": "package",
-      "path": "nunit/3.12.0",
+      "path": "nunit/3.13.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -751,44 +739,44 @@
         "LICENSE.txt",
         "NOTICES.txt",
         "build/NUnit.props",
+        "icon.png",
         "lib/net35/nunit.framework.dll",
-        "lib/net35/nunit.framework.pdb",
         "lib/net35/nunit.framework.xml",
         "lib/net40/nunit.framework.dll",
-        "lib/net40/nunit.framework.pdb",
         "lib/net40/nunit.framework.xml",
         "lib/net45/nunit.framework.dll",
-        "lib/net45/nunit.framework.pdb",
         "lib/net45/nunit.framework.xml",
-        "lib/netstandard1.4/nunit.framework.dll",
-        "lib/netstandard1.4/nunit.framework.pdb",
-        "lib/netstandard1.4/nunit.framework.xml",
         "lib/netstandard2.0/nunit.framework.dll",
-        "lib/netstandard2.0/nunit.framework.pdb",
         "lib/netstandard2.0/nunit.framework.xml",
-        "nunit.3.12.0.nupkg.sha512",
+        "nunit.3.13.3.nupkg.sha512",
         "nunit.nuspec"
       ]
     },
-    "NUnit3TestAdapter/3.13.0": {
-      "sha512": "9OlA81APTyR/tNkapK2a2dlz4jFra7/Bm1eYT1P1lIq2cJv4OYtWD5uHj3XsO1dz3btiwbIFrWBtZNr/ebRhSw==",
+    "NUnit3TestAdapter/4.4.2": {
+      "sha512": "vA/iHYcR+LYw+pRWQugckC/zW2fXHaqMr2uA82NOBt8v4YK4wMJrQ7QC8XLc7PjetEZ96cPbBTWsDDtmQiRZTA==",
       "type": "package",
-      "path": "nunit3testadapter/3.13.0",
+      "path": "nunit3testadapter/4.4.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.txt",
-        "build/net35/NUnit3.TestAdapter.dll",
-        "build/net35/NUnit3.TestAdapter.pdb",
-        "build/net35/NUnit3TestAdapter.props",
-        "build/net35/nunit.engine.api.dll",
-        "build/net35/nunit.engine.dll",
-        "build/netcoreapp1.0/NUnit3.TestAdapter.dll",
-        "build/netcoreapp1.0/NUnit3.TestAdapter.pdb",
-        "build/netcoreapp1.0/NUnit3TestAdapter.props",
-        "build/netcoreapp1.0/nunit.engine.netstandard.dll",
-        "nunit3testadapter.3.13.0.nupkg.sha512",
-        "nunit3testadapter.nuspec"
+        "build/net462/NUnit3.TestAdapter.dll",
+        "build/net462/NUnit3.TestAdapter.pdb",
+        "build/net462/NUnit3TestAdapter.props",
+        "build/net462/nunit.engine.api.dll",
+        "build/net462/nunit.engine.core.dll",
+        "build/net462/nunit.engine.dll",
+        "build/net462/testcentric.engine.metadata.dll",
+        "build/netcoreapp3.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp3.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp3.1/NUnit3TestAdapter.props",
+        "build/netcoreapp3.1/nunit.engine.api.dll",
+        "build/netcoreapp3.1/nunit.engine.core.dll",
+        "build/netcoreapp3.1/nunit.engine.dll",
+        "build/netcoreapp3.1/testcentric.engine.metadata.dll",
+        "docs/README.md",
+        "nunit3testadapter.4.4.2.nupkg.sha512",
+        "nunit3testadapter.nuspec",
+        "nunit_256.png"
       ]
     },
     "SharpZipLib/1.3.3": {
@@ -1164,8 +1152,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.1": [
-      "NUnit >= 3.12.0",
-      "NUnit3TestAdapter >= 3.13.0",
+      "NUnit >= 3.13.3",
+      "NUnit3TestAdapter >= 4.4.2",
       "Xamarin.UITest >= 4.1.2"
     ]
   },
@@ -1209,11 +1197,11 @@
         "dependencies": {
           "NUnit": {
             "target": "Package",
-            "version": "[3.12.0, )"
+            "version": "[3.13.3, )"
           },
           "NUnit3TestAdapter": {
             "target": "Package",
-            "version": "[3.13.0, )"
+            "version": "[4.4.2, )"
           },
           "Xamarin.UITest": {
             "target": "Package",

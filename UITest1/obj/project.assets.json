@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETFramework,Version=v4.6.1": {
+    ".NETFramework,Version=v4.6.2": {
       "Microsoft.AspNet.WebApi.Client/5.2.9": {
         "type": "package",
         "dependencies": {
@@ -51,7 +51,10 @@
         }
       },
       "NUnit3TestAdapter/4.4.2": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/net462/NUnit3TestAdapter.props": {}
+        }
       },
       "SharpZipLib/1.3.3": {
         "type": "package",
@@ -198,12 +201,29 @@
           "System.Net.Http": "4.3.4",
           "TinyIoC": "1.3.0"
         },
+        "frameworkAssemblies": [
+          "System.Security.Cryptography"
+        ],
+        "compile": {
+          "lib/net462/Xamarin.UITest.Repl.dll": {},
+          "lib/net462/Xamarin.UITest.Shared.dll": {},
+          "lib/net462/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/Xamarin.UITest.Repl.dll": {},
+          "lib/net462/Xamarin.UITest.Shared.dll": {},
+          "lib/net462/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
         "build": {
           "build/Xamarin.UITest.props": {}
         }
       }
     },
-    ".NETFramework,Version=v4.6.1/win": {
+    ".NETFramework,Version=v4.6.2/win": {
       "Microsoft.AspNet.WebApi.Client/5.2.9": {
         "type": "package",
         "dependencies": {
@@ -253,7 +273,10 @@
         }
       },
       "NUnit3TestAdapter/4.4.2": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/net462/NUnit3TestAdapter.props": {}
+        }
       },
       "SharpZipLib/1.3.3": {
         "type": "package",
@@ -356,12 +379,29 @@
           "System.Net.Http": "4.3.4",
           "TinyIoC": "1.3.0"
         },
+        "frameworkAssemblies": [
+          "System.Security.Cryptography"
+        ],
+        "compile": {
+          "lib/net462/Xamarin.UITest.Repl.dll": {},
+          "lib/net462/Xamarin.UITest.Shared.dll": {},
+          "lib/net462/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/Xamarin.UITest.Repl.dll": {},
+          "lib/net462/Xamarin.UITest.Shared.dll": {},
+          "lib/net462/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
         "build": {
           "build/Xamarin.UITest.props": {}
         }
       }
     },
-    ".NETFramework,Version=v4.6.1/win-x64": {
+    ".NETFramework,Version=v4.6.2/win-x64": {
       "Microsoft.AspNet.WebApi.Client/5.2.9": {
         "type": "package",
         "dependencies": {
@@ -411,7 +451,10 @@
         }
       },
       "NUnit3TestAdapter/4.4.2": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/net462/NUnit3TestAdapter.props": {}
+        }
       },
       "SharpZipLib/1.3.3": {
         "type": "package",
@@ -514,12 +557,29 @@
           "System.Net.Http": "4.3.4",
           "TinyIoC": "1.3.0"
         },
+        "frameworkAssemblies": [
+          "System.Security.Cryptography"
+        ],
+        "compile": {
+          "lib/net462/Xamarin.UITest.Repl.dll": {},
+          "lib/net462/Xamarin.UITest.Shared.dll": {},
+          "lib/net462/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/Xamarin.UITest.Repl.dll": {},
+          "lib/net462/Xamarin.UITest.Shared.dll": {},
+          "lib/net462/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
         "build": {
           "build/Xamarin.UITest.props": {}
         }
       }
     },
-    ".NETFramework,Version=v4.6.1/win-x86": {
+    ".NETFramework,Version=v4.6.2/win-x86": {
       "Microsoft.AspNet.WebApi.Client/5.2.9": {
         "type": "package",
         "dependencies": {
@@ -569,7 +629,10 @@
         }
       },
       "NUnit3TestAdapter/4.4.2": {
-        "type": "package"
+        "type": "package",
+        "build": {
+          "build/net462/NUnit3TestAdapter.props": {}
+        }
       },
       "SharpZipLib/1.3.3": {
         "type": "package",
@@ -671,6 +734,23 @@
           "SharpZipLib": "1.3.3",
           "System.Net.Http": "4.3.4",
           "TinyIoC": "1.3.0"
+        },
+        "frameworkAssemblies": [
+          "System.Security.Cryptography"
+        ],
+        "compile": {
+          "lib/net462/Xamarin.UITest.Repl.dll": {},
+          "lib/net462/Xamarin.UITest.Shared.dll": {},
+          "lib/net462/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/Xamarin.UITest.Repl.dll": {},
+          "lib/net462/Xamarin.UITest.Shared.dll": {},
+          "lib/net462/Xamarin.UITest.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "build/Xamarin.UITest.props": {}
@@ -1151,7 +1231,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETFramework,Version=v4.6.1": [
+    ".NETFramework,Version=v4.6.2": [
       "NUnit >= 3.13.3",
       "NUnit3TestAdapter >= 4.4.2",
       "Xamarin.UITest >= 4.1.2"
@@ -1180,20 +1260,20 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net461"
+        "net462"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net461": {
+        "net462": {
           "projectReferences": {}
         }
       }
     },
     "frameworks": {
-      "net461": {
+      "net462": {
         "dependencies": {
           "NUnit": {
             "target": "Package",

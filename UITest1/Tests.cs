@@ -11,7 +11,7 @@ namespace UITest1
     [TestFixture(Platform.iOS)]
     public class Tests
     {
-        //3.2.9
+        //4.1.2
         IApp app;
         Platform platform;
 
